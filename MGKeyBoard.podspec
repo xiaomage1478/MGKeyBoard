@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/xiaomage1478/MGKeyBoard.git", :tag => "#{s.version}" }
 
-  s.source_files = "MGKeyBoard/MGKeyBoard/*.{h,m}"
+  s.source_files = "MGKeyBoard/MGKeyBoard/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
