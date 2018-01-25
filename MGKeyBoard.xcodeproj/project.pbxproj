@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6E93F8520197F6100DCDFE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93F8420197F6100DCDFE8 /* AppDelegate.m */; };
+		F6E93F8820197F6100DCDFE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93F8720197F6100DCDFE8 /* ViewController.m */; };
+		F6E93F8B20197F6100DCDFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E93F8920197F6100DCDFE8 /* Main.storyboard */; };
+		F6E93F8D20197F6100DCDFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E93F8C20197F6100DCDFE8 /* Assets.xcassets */; };
+		F6E93F9020197F6100DCDFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E93F8E20197F6100DCDFE8 /* LaunchScreen.storyboard */; };
+		F6E93F9320197F6100DCDFE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93F9220197F6100DCDFE8 /* main.m */; };
+		F6E93FAC2019817100DCDFE8 /* MGPassWordKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93FA72019817100DCDFE8 /* MGPassWordKeyBoard.m */; };
+		F6E93FB82019AA2900DCDFE8 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93FB52019AA2900DCDFE8 /* UIImage+Color.m */; };
+		F6E93FB92019AA2900DCDFE8 /* UITextField+Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93FB72019AA2900DCDFE8 /* UITextField+Selection.m */; };
+		F6E93FBF2019AA3300DCDFE8 /* key_pressed_fat_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FBB2019AA3300DCDFE8 /* key_pressed_fat_middle.png */; };
+		F6E93FC02019AA3300DCDFE8 /* key_pressed_fat_middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FBC2019AA3300DCDFE8 /* key_pressed_fat_middle@2x.png */; };
+		F6E93FC12019AA3300DCDFE8 /* key_pressed_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FBD2019AA3300DCDFE8 /* key_pressed_middle.png */; };
+		F6E93FC22019AA3300DCDFE8 /* key_pressed_middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FBE2019AA3300DCDFE8 /* key_pressed_middle@2x.png */; };
+		F6E93FCA2019AA5000DCDFE8 /* MGKeyBoardCharView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93FC72019AA5000DCDFE8 /* MGKeyBoardCharView.m */; };
+		F6E93FCB2019AA5000DCDFE8 /* MGKeyBoardNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93FC82019AA5000DCDFE8 /* MGKeyBoardNumView.m */; };
+		F6E93FCC2019AA5000DCDFE8 /* MGKeyBoardSymbolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E93FC92019AA5000DCDFE8 /* MGKeyBoardSymbolView.m */; };
+		F6E93FCE2019AD0700DCDFE8 /* deleteKeyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FCD2019AD0700DCDFE8 /* deleteKeyboard@2x.png */; };
+		F6E93FD12019AD9D00DCDFE8 /* keyboardBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FD02019AD9D00DCDFE8 /* keyboardBig@2x.png */; };
+		F6E93FD32019ADCA00DCDFE8 /* keyboardSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FD22019ADCA00DCDFE8 /* keyboardSmall@2x.png */; };
+		F6E93FD52019AE3B00DCDFE8 /* deleteCancle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E93FD42019AE3B00DCDFE8 /* deleteCancle@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6E93F8020197F6100DCDFE8 /* MGKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E93F8320197F6100DCDFE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6E93F8420197F6100DCDFE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6E93F8620197F6100DCDFE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6E93F8720197F6100DCDFE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6E93F8A20197F6100DCDFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E93F8C20197F6100DCDFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6E93F8F20197F6100DCDFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6E93F9120197F6100DCDFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E93F9220197F6100DCDFE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6E93FA32019817000DCDFE8 /* MGPassWordKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPassWordKeyBoard.h; sourceTree = "<group>"; };
+		F6E93FA72019817100DCDFE8 /* MGPassWordKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPassWordKeyBoard.m; sourceTree = "<group>"; };
+		F6E93FB42019AA2900DCDFE8 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		F6E93FB52019AA2900DCDFE8 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		F6E93FB62019AA2900DCDFE8 /* UITextField+Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Selection.h"; sourceTree = "<group>"; };
+		F6E93FB72019AA2900DCDFE8 /* UITextField+Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Selection.m"; sourceTree = "<group>"; };
+		F6E93FBB2019AA3300DCDFE8 /* key_pressed_fat_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key_pressed_fat_middle.png; sourceTree = "<group>"; };
+		F6E93FBC2019AA3300DCDFE8 /* key_pressed_fat_middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key_pressed_fat_middle@2x.png"; sourceTree = "<group>"; };
+		F6E93FBD2019AA3300DCDFE8 /* key_pressed_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key_pressed_middle.png; sourceTree = "<group>"; };
+		F6E93FBE2019AA3300DCDFE8 /* key_pressed_middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key_pressed_middle@2x.png"; sourceTree = "<group>"; };
+		F6E93FC32019AA4F00DCDFE8 /* MGKeyBoardCharView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGKeyBoardCharView.h; sourceTree = "<group>"; };
+		F6E93FC42019AA4F00DCDFE8 /* MGKeyBoardSymbolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGKeyBoardSymbolView.h; sourceTree = "<group>"; };
+		F6E93FC62019AA5000DCDFE8 /* MGKeyBoardNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGKeyBoardNumView.h; sourceTree = "<group>"; };
+		F6E93FC72019AA5000DCDFE8 /* MGKeyBoardCharView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGKeyBoardCharView.m; sourceTree = "<group>"; };
+		F6E93FC82019AA5000DCDFE8 /* MGKeyBoardNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGKeyBoardNumView.m; sourceTree = "<group>"; };
+		F6E93FC92019AA5000DCDFE8 /* MGKeyBoardSymbolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGKeyBoardSymbolView.m; sourceTree = "<group>"; };
+		F6E93FCD2019AD0700DCDFE8 /* deleteKeyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteKeyboard@2x.png"; sourceTree = "<group>"; };
+		F6E93FD02019AD9D00DCDFE8 /* keyboardBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboardBig@2x.png"; sourceTree = "<group>"; };
+		F6E93FD22019ADCA00DCDFE8 /* keyboardSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboardSmall@2x.png"; sourceTree = "<group>"; };
+		F6E93FD42019AE3B00DCDFE8 /* deleteCancle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteCancle@2x.png"; sourceTree = "<group>"; };
+		F6E93FD72019B4AD00DCDFE8 /* MGKeyboardHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGKeyboardHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E93F7D20197F6100DCDFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E93F7720197F6100DCDFE8 = {
+			isa = PBXGroup;
+			children = (
+				F6E93F8220197F6100DCDFE8 /* MGKeyBoard */,
+				F6E93F8120197F6100DCDFE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E93F8120197F6100DCDFE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E93F8020197F6100DCDFE8 /* MGKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E93F8220197F6100DCDFE8 /* MGKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F6E93F9920197FB900DCDFE8 /* MGKeyBoard */,
+				F6E93F8320197F6100DCDFE8 /* AppDelegate.h */,
+				F6E93F8420197F6100DCDFE8 /* AppDelegate.m */,
+				F6E93F8620197F6100DCDFE8 /* ViewController.h */,
+				F6E93F8720197F6100DCDFE8 /* ViewController.m */,
+				F6E93F8920197F6100DCDFE8 /* Main.storyboard */,
+				F6E93F8C20197F6100DCDFE8 /* Assets.xcassets */,
+				F6E93F8E20197F6100DCDFE8 /* LaunchScreen.storyboard */,
+				F6E93F9120197F6100DCDFE8 /* Info.plist */,
+				F6E93F9220197F6100DCDFE8 /* main.m */,
+			);
+			path = MGKeyBoard;
+			sourceTree = "<group>";
+		};
+		F6E93F9920197FB900DCDFE8 /* MGKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F6E93FD72019B4AD00DCDFE8 /* MGKeyboardHeader.h */,
+				F6E93FA32019817000DCDFE8 /* MGPassWordKeyBoard.h */,
+				F6E93FA72019817100DCDFE8 /* MGPassWordKeyBoard.m */,
+				F6E93FBA2019AA3300DCDFE8 /* resource */,
+				F6E93FB32019AA2900DCDFE8 /* Category */,
+				F6E93FB22019A95300DCDFE8 /* ThreeTypeKeyBoard */,
+			);
+			path = MGKeyBoard;
+			sourceTree = "<group>";
+		};
+		F6E93FB22019A95300DCDFE8 /* ThreeTypeKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F6E93FC32019AA4F00DCDFE8 /* MGKeyBoardCharView.h */,
+				F6E93FC72019AA5000DCDFE8 /* MGKeyBoardCharView.m */,
+				F6E93FC62019AA5000DCDFE8 /* MGKeyBoardNumView.h */,
+				F6E93FC82019AA5000DCDFE8 /* MGKeyBoardNumView.m */,
+				F6E93FC42019AA4F00DCDFE8 /* MGKeyBoardSymbolView.h */,
+				F6E93FC92019AA5000DCDFE8 /* MGKeyBoardSymbolView.m */,
+			);
+			path = ThreeTypeKeyBoard;
+			sourceTree = "<group>";
+		};
+		F6E93FB32019AA2900DCDFE8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F6E93FB42019AA2900DCDFE8 /* UIImage+Color.h */,
+				F6E93FB52019AA2900DCDFE8 /* UIImage+Color.m */,
+				F6E93FB62019AA2900DCDFE8 /* UITextField+Selection.h */,
+				F6E93FB72019AA2900DCDFE8 /* UITextField+Selection.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F6E93FBA2019AA3300DCDFE8 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F6E93FD22019ADCA00DCDFE8 /* keyboardSmall@2x.png */,
+				F6E93FD02019AD9D00DCDFE8 /* keyboardBig@2x.png */,
+				F6E93FD42019AE3B00DCDFE8 /* deleteCancle@2x.png */,
+				F6E93FCD2019AD0700DCDFE8 /* deleteKeyboard@2x.png */,
+				F6E93FBB2019AA3300DCDFE8 /* key_pressed_fat_middle.png */,
+				F6E93FBC2019AA3300DCDFE8 /* key_pressed_fat_middle@2x.png */,
+				F6E93FBD2019AA3300DCDFE8 /* key_pressed_middle.png */,
+				F6E93FBE2019AA3300DCDFE8 /* key_pressed_middle@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E93F7F20197F6100DCDFE8 /* MGKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E93F9620197F6100DCDFE8 /* Build configuration list for PBXNativeTarget "MGKeyBoard" */;
+			buildPhases = (
+				F6E93F7C20197F6100DCDFE8 /* Sources */,
+				F6E93F7D20197F6100DCDFE8 /* Frameworks */,
+				F6E93F7E20197F6100DCDFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGKeyBoard;
+			productName = MGKeyBoard;
+			productReference = F6E93F8020197F6100DCDFE8 /* MGKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E93F7820197F6100DCDFE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "小马哥";
+				TargetAttributes = {
+					F6E93F7F20197F6100DCDFE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6E93F7B20197F6100DCDFE8 /* Build configuration list for PBXProject "MGKeyBoard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E93F7720197F6100DCDFE8;
+			productRefGroup = F6E93F8120197F6100DCDFE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E93F7F20197F6100DCDFE8 /* MGKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E93F7E20197F6100DCDFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E93FCE2019AD0700DCDFE8 /* deleteKeyboard@2x.png in Resources */,
+				F6E93F9020197F6100DCDFE8 /* LaunchScreen.storyboard in Resources */,
+				F6E93FC12019AA3300DCDFE8 /* key_pressed_middle.png in Resources */,
+				F6E93FD32019ADCA00DCDFE8 /* keyboardSmall@2x.png in Resources */,
+				F6E93FD12019AD9D00DCDFE8 /* keyboardBig@2x.png in Resources */,
+				F6E93FC02019AA3300DCDFE8 /* key_pressed_fat_middle@2x.png in Resources */,
+				F6E93FD52019AE3B00DCDFE8 /* deleteCancle@2x.png in Resources */,
+				F6E93F8D20197F6100DCDFE8 /* Assets.xcassets in Resources */,
+				F6E93F8B20197F6100DCDFE8 /* Main.storyboard in Resources */,
+				F6E93FBF2019AA3300DCDFE8 /* key_pressed_fat_middle.png in Resources */,
+				F6E93FC22019AA3300DCDFE8 /* key_pressed_middle@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E93F7C20197F6100DCDFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E93FAC2019817100DCDFE8 /* MGPassWordKeyBoard.m in Sources */,
+				F6E93F8820197F6100DCDFE8 /* ViewController.m in Sources */,
+				F6E93F9320197F6100DCDFE8 /* main.m in Sources */,
+				F6E93FCB2019AA5000DCDFE8 /* MGKeyBoardNumView.m in Sources */,
+				F6E93FCC2019AA5000DCDFE8 /* MGKeyBoardSymbolView.m in Sources */,
+				F6E93F8520197F6100DCDFE8 /* AppDelegate.m in Sources */,
+				F6E93FB82019AA2900DCDFE8 /* UIImage+Color.m in Sources */,
+				F6E93FCA2019AA5000DCDFE8 /* MGKeyBoardCharView.m in Sources */,
+				F6E93FB92019AA2900DCDFE8 /* UITextField+Selection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6E93F8920197F6100DCDFE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E93F8A20197F6100DCDFE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E93F8E20197F6100DCDFE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E93F8F20197F6100DCDFE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E93F9420197F6100DCDFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6E93F9520197F6100DCDFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E93F9720197F6100DCDFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47FQ549BS6;
+				INFOPLIST_FILE = MGKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxsihe.MGKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E93F9820197F6100DCDFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47FQ549BS6;
+				INFOPLIST_FILE = MGKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxsihe.MGKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E93F7B20197F6100DCDFE8 /* Build configuration list for PBXProject "MGKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E93F9420197F6100DCDFE8 /* Debug */,
+				F6E93F9520197F6100DCDFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E93F9620197F6100DCDFE8 /* Build configuration list for PBXNativeTarget "MGKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E93F9720197F6100DCDFE8 /* Debug */,
+				F6E93F9820197F6100DCDFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E93F7820197F6100DCDFE8 /* Project object */;
+}
