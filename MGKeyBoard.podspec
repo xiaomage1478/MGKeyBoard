@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MGKeyBoard"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "This is a custom keyboard."
   s.homepage     = "https://github.com/xiaomage1478/MGKeyBoard"
   s.license      = "MIT"
