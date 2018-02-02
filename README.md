@@ -10,7 +10,8 @@
    > #import <MGPassWordKeyBoard.h>
    
 * 调用方法
-``` - (void)viewDidLoad {
+```
+  - (void)viewDidLoad {
     [super viewDidLoad];
 
     UITextField *textField  = [[UITextField alloc]initWithFrame:CGRectMake(0, 0, 200, 40)];
