@@ -9,7 +9,7 @@
 * 导入头文件
    > #import <MGPassWordKeyBoard.h>
    
-* 调用方法
+* 使用实例
 ```
   - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,6 +23,7 @@
 
     MGPassWordKeyBoard *customKeyboard = [[MGPassWordKeyBoard alloc]initKeyboardView];
     customKeyboard.keyBoardLayoutStyle = KeyBoardLayoutStyleDefault;
+    ///这行是关键代码，如有多个textfield ，只需要在textField 的开始编辑代理方法中重新关联即可
     [customKeyboard setRelationShipTextFiled:textField];
   }
   ```
